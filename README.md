@@ -1,2 +1,2 @@
 # Solidity -> ink! Rust
-Conversions of Solidity Smart Contracts into ink! Rust Smart Contracts
+Basic conversions of Solidity Smart Contracts into ink! Rust Smart Contracts for educational purposes.
