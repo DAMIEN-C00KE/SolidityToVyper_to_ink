@@ -1,4 +1,4 @@
-# Shipping contract in Vyper
+# @version ^0.3.9
 
 # Constants to represent shipping status
 PENDING: public(uint256) = 0
