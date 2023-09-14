@@ -10,19 +10,19 @@ CANCELED: public(uint256) = 4
 # Default value is the first element, in this case "PENDING"
 status: public(uint256) = self.PENDING
 
-@public
+@external    
 def get() -> uint256:
     return self.status
 
-@public
+@external
 def set(_status: uint256):
     assert _status >= self.PENDING and _status <= self.CANCELED, "Invalid value"
     self.status = _status
 
-@public
+@external
 def cancel():
     self.status = self.CANCELED
 
-@public
+@external
 def reset():
     self.status = self.PENDING
